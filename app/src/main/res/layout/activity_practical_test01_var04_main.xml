@@ -21,14 +21,14 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="text"
-            android:enabled="false"
+            android:enabled="true"
             android:saveEnabled="false"
-            android:text="341C5"
-            android:clickable="true"
+            android:text="Anca"
+            android:clickable="true"/>
         <CheckBox android:id="@+id/checkbox1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="" />/>
+            android:text="" />
 
     </LinearLayout>
 
@@ -47,13 +47,13 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="text"
-            android:enabled="false"
+            android:enabled="true"
             android:saveEnabled="false"
-            android:text="Andrei Anca-Teodora"
+            android:text="341c5"/>
         <CheckBox android:id="@+id/checkbox2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="" />/>
+            android:text="" />
 
     </LinearLayout>
 
@@ -66,5 +66,37 @@
         android:text="Display Information!"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout2" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/press_me_button">
+
+        <EditText
+            android:id="@+id/input3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="text"
+            android:enabled="true"
+            android:saveEnabled="false"
+            android:text="" />
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/newactivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="5dp"
+        android:text="Navigate"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout3" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
